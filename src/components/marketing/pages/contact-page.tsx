@@ -90,7 +90,7 @@ export function ContactPage() {
                 <p>
                   <span className="font-medium">Hours</span>
                   <span className="mt-0.5 block text-muted-foreground">
-                    Mon–Fri, 9am–6pm PT (demo timezone)
+                    Mon-Fri, 9am-6pm PT (demo timezone)
                   </span>
                 </p>
               </div>
