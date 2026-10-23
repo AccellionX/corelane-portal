@@ -92,7 +92,7 @@ export function ModuleFiles({ title = "Files" }: { title?: string }) {
         <Upload className="mb-3 h-8 w-8 text-indigo-600" />
         <p className="font-medium">Drop files to upload</p>
         <p className="mt-1 text-sm text-muted-foreground">
-          PDF, images, CSV, and zip — mock storage only
+          PDF, images, CSV, and zip - mock storage only
         </p>
         <label className="mt-4 inline-flex cursor-pointer items-center justify-center rounded-xl border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition hover:bg-accent hover:text-accent-foreground">
           <input

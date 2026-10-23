@@ -69,7 +69,7 @@ export default function AdminPaymentsPage() {
         description={
           canRefund
             ? "Filter transactions and refund paid charges with confirmation."
-            : "View transactions only — refunds require Admin. Restricted — ask an Admin for access."
+            : "View transactions only - refunds require Admin. Restricted - ask an Admin for access."
         }
         actions={
           <Select
@@ -130,12 +130,12 @@ export default function AdminPaymentsPage() {
                         disabled={!canRefund || txn.status !== "paid"}
                         title={
                           !canRefund
-                            ? "Restricted — ask an Admin for access."
+                            ? "Restricted - ask an Admin for access."
                             : undefined
                         }
                         onClick={() => {
                           if (!canRefund) {
-                            toast.error("Restricted — ask an Admin for access.");
+                            toast.error("Restricted - ask an Admin for access.");
                             return;
                           }
                           setRefundTarget(txn);

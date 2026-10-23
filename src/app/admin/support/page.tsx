@@ -152,7 +152,7 @@ export default function AdminSupportPage() {
                       className="rounded-xl bg-zinc-50 px-3 py-2 text-sm dark:bg-zinc-900/50"
                     >
                       <span className="font-medium">{m.authorName}</span>
-                      <span className="text-muted-foreground"> — {m.body}</span>
+                      <span className="text-muted-foreground"> - {m.body}</span>
                     </div>
                   ))}
                 </div>

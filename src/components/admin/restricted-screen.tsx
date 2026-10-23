@@ -8,7 +8,7 @@ import type { DemoRole } from "@/lib/types";
 
 export function RestrictedScreen({
   role,
-  message = "Restricted — ask an Admin for access.",
+  message = "Restricted - ask an Admin for access.",
 }: {
   role: DemoRole;
   message?: string;

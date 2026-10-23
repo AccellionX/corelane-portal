@@ -69,10 +69,10 @@ export function defaultAdminHref(role: DemoRole): string {
 
 export function restrictedMessage(role: DemoRole, section: AdminSection): string {
   if (role === "Manager" && section === "roles") {
-    return "Restricted — ask an Admin for access.";
+    return "Restricted - ask an Admin for access.";
   }
   if (role === "Support") {
-    return "Restricted — Support can only view Users and Support. Ask an Admin for access.";
+    return "Restricted - Support can only view Users and Support. Ask an Admin for access.";
   }
-  return "Restricted — ask an Admin for access.";
+  return "Restricted - ask an Admin for access.";
 }

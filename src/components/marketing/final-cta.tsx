@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export function FinalCta({
   title = "Ready to run every lane from one place?",
-  description = "Spin up a workspace in minutes. Demo auth is mock — continue straight into the customer dashboard.",
+  description = "Spin up a workspace in minutes. Demo auth is mock - continue straight into the customer dashboard.",
 }: {
   title?: string;
   description?: string;

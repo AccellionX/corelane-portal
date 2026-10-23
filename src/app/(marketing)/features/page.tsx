@@ -5,7 +5,7 @@ import { FeaturesPage } from "@/components/marketing/pages/features-page";
 export const metadata: Metadata = createPageMetadata({
   title: "Features",
   description:
-    "Explore Corelane features — capacity, revenue, contextual support, and admin controls.",
+    "Explore Corelane features - capacity, revenue, contextual support, and admin controls.",
   path: "/features",
 });
 

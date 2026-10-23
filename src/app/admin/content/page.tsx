@@ -62,7 +62,7 @@ export default function AdminContentPage() {
               disabled={!unsaved}
               onClick={() => {
                 publishContent();
-                toast.success("Published — public site updated");
+                toast.success("Published - public site updated");
               }}
             >
               Publish
@@ -209,7 +209,7 @@ export default function AdminContentPage() {
       <Card>
         <CardHeader>
           <CardTitle>Version history</CardTitle>
-          <CardDescription>Last 5 published versions — restore loads into the draft.</CardDescription>
+          <CardDescription>Last 5 published versions - restore loads into the draft.</CardDescription>
         </CardHeader>
         <CardContent className="divide-y divide-border/60">
           {versions.length === 0 && (
@@ -235,7 +235,7 @@ export default function AdminContentPage() {
                 className="rounded-xl"
                 onClick={() => {
                   restoreContentVersion(ver.id);
-                  toast.message("Version restored to draft — publish to go live");
+                  toast.message("Version restored to draft - publish to go live");
                 }}
               >
                 Restore

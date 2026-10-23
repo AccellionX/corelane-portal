@@ -49,7 +49,7 @@ export function ContactPage() {
     setSubmitting(true);
     window.setTimeout(() => {
       toast.success("Message sent", {
-        description: "Thanks — this is a mock demo. We'll pretend to follow up shortly.",
+        description: "Thanks - this is a mock demo. We'll pretend to follow up shortly.",
       });
       setForm(empty);
       setErrors({});
@@ -67,7 +67,7 @@ export function ContactPage() {
               Tell us about your lanes
             </h1>
             <p className="mt-5 text-pretty text-lg text-muted-foreground">
-              Mock form with validation and a success toast — no emails leave this demo.
+              Mock form with validation and a success toast - no emails leave this demo.
             </p>
           </div>
         </div>
@@ -80,7 +80,7 @@ export function ContactPage() {
               <h2 className="text-xl font-semibold tracking-tight">What to expect</h2>
               <p className="text-sm leading-relaxed text-muted-foreground">
                 Share how you run bookings and billing today. In a real product this would route to
-                sales — here it validates locally and confirms with Sonner.
+                sales - here it validates locally and confirms with Sonner.
               </p>
               <div className="surface-card space-y-3 p-5 text-sm">
                 <p>

@@ -210,7 +210,7 @@ export function createSeedTransactions(users: User[]): Transaction[] {
       amount,
       status,
       planId: user.plan,
-      description: `${plan.name} subscription — ${new Date(daysAgo(i * 2)).toLocaleString("en-US", { month: "short", year: "numeric", timeZone: "UTC" })}`,
+      description: `${plan.name} subscription - ${new Date(daysAgo(i * 2)).toLocaleString("en-US", { month: "short", year: "numeric", timeZone: "UTC" })}`,
       date: daysAgo(i * 2 + (i % 4)),
       paymentMethod: pick(TX_METHODS, i),
     };
@@ -224,7 +224,7 @@ const BOOKING_TITLES = [
 ];
 
 const LOCATIONS = [
-  "Room A — HQ", "Zoom · Corelane", "Brooklyn Studio", "Austin Hub",
+  "Room A - HQ", "Zoom · Corelane", "Brooklyn Studio", "Austin Hub",
   "London Bridge office", "Virtual · Teams", "Dock 3 warehouse", "Clinic Bay 2",
 ];
 
@@ -423,7 +423,7 @@ export function createSeedTickets(users: User[]): SupportTicket[] {
         authorId: user.id,
         authorName: user.name,
         authorRole: "User" as const,
-        body: `Hi team — ${subject.toLowerCase()}. This started after our last plan change on Growth. Happy to jump on a call if helpful.`,
+        body: `Hi team - ${subject.toLowerCase()}. This started after our last plan change on Growth. Happy to jump on a call if helpful.`,
         createdAt,
       },
       {
@@ -431,7 +431,7 @@ export function createSeedTickets(users: User[]): SupportTicket[] {
         authorId: agent.id,
         authorName: agent.name,
         authorRole: agent.role,
-        body: `Thanks ${user.name.split(" ")[0]} — I've reproduced this on a Growth workspace and opened an internal thread. Expect an update within one business day.`,
+        body: `Thanks ${user.name.split(" ")[0]} - I've reproduced this on a Growth workspace and opened an internal thread. Expect an update within one business day.`,
         createdAt: hoursAgo(24 * (18 - i) - 5),
       },
     ];
@@ -451,7 +451,7 @@ export function createSeedTickets(users: User[]): SupportTicket[] {
         authorId: agent.id,
         authorName: agent.name,
         authorRole: agent.role,
-        body: "Resolved — root cause was a stale cache on the export worker. We've shipped a fix and re-ran your last export. Closing this ticket.",
+        body: "Resolved - root cause was a stale cache on the export worker. We've shipped a fix and re-ran your last export. Closing this ticket.",
         createdAt: hoursAgo(24 * (18 - i) - 30),
       });
     }
@@ -501,7 +501,7 @@ export function createSeedNotifications(users: User[]): Notification[] {
     },
     {
       title: "Order shipped",
-      body: "Lane sensor kit is en route — tracking CL980004.",
+      body: "Lane sensor kit is en route - tracking CL980004.",
       read: true,
       type: "product",
       createdAt: daysAgo(2),
@@ -542,7 +542,7 @@ export function createSeedCms(): CmsContent {
         id: "feat_1",
         title: "Unified capacity",
         description:
-          "See bookings, seats, and utilization in one timeline — no spreadsheet reconciliation.",
+          "See bookings, seats, and utilization in one timeline - no spreadsheet reconciliation.",
         icon: "CalendarClock",
       },
       {
@@ -590,13 +590,13 @@ export function createSeedCms(): CmsContent {
         id: "faq_4",
         question: "Is Corelane available for multi-location businesses?",
         answer:
-          "Scale supports multiple workspaces with shared admin policies — designed for clinics, studios, and logistics hubs.",
+          "Scale supports multiple workspaces with shared admin policies - designed for clinics, studios, and logistics hubs.",
       },
       {
         id: "faq_5",
         question: "What happens when I hit Reset demo?",
         answer:
-          "Seed data is restored from the in-app fixtures and localStorage is rewritten so every surface — public, app, and admin — returns to a clean baseline.",
+          "Seed data is restored from the in-app fixtures and localStorage is rewritten so every surface - public, app, and admin - returns to a clean baseline.",
       },
     ],
     published: true,

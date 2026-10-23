@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const VALUES = [
   {
     title: "One source of truth",
-    body: "Customer, billing, and support views share the same store — no stale exports between tools.",
+    body: "Customer, billing, and support views share the same store - no stale exports between tools.",
   },
   {
     title: "Calm by default",
@@ -28,7 +28,7 @@ export function AboutPage() {
               Built for teams who outgrew spreadsheets
             </h1>
             <p className="mt-5 text-pretty text-lg text-muted-foreground">
-              Corelane is a fictional SaaS demo from AccellionX — designed to show how a public site,
+              Corelane is a fictional SaaS demo from AccellionX - designed to show how a public site,
               customer app, and admin panel stay in sync when they share one operational state.
             </p>
           </div>
@@ -42,7 +42,7 @@ export function AboutPage() {
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Growing operators juggle booking calendars, subscription billing, and support queues
               across tools that never talk to each other. Corelane explores what happens when those
-              lanes share one control plane — including live CMS edits that update the homepage the
+              lanes share one control plane - including live CMS edits that update the homepage the
               moment an admin publishes.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
@@ -66,7 +66,7 @@ export function AboutPage() {
 
       <FinalCta
         title="See the full product loop"
-        description="Jump into the customer dashboard or admin panel — both read from the same seed data."
+        description="Jump into the customer dashboard or admin panel - both read from the same seed data."
       />
     </>
   );

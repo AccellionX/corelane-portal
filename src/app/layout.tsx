@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://corelane.demo"),
   title: {
-    default: "Corelane — Operate every lane",
+    default: "Corelane - Operate every lane",
     template: "%s · Corelane",
   },
   description:

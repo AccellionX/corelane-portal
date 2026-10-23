@@ -66,13 +66,13 @@ export function TourProvider({ children }: { children: React.ReactNode }) {
     setShowWelcome(false);
     setTourActive(true);
     goToStep(0);
-    toast.message("Tour started", { description: "Follow the tips — skip anytime." });
+    toast.message("Tour started", { description: "Follow the tips - skip anytime." });
   }, [goToStep]);
 
   const skipWelcome = useCallback(() => {
     writeTourStorage({ welcomeSeen: true });
     setShowWelcome(false);
-    toast.message("Explore freely — restart the tour from the Demo pill anytime.");
+    toast.message("Explore freely - restart the tour from the Demo pill anytime.");
   }, []);
 
   const skipTour = useCallback(() => {

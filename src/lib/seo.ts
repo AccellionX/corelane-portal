@@ -19,12 +19,12 @@ export function createPageMetadata({
 
   return {
     title: isHome
-      ? { absolute: "Corelane — Operate every lane" }
+      ? { absolute: "Corelane - Operate every lane" }
       : title,
     description,
     alternates: { canonical: path },
     openGraph: {
-      title: isHome ? "Corelane — Operate every lane" : `${title} · ${SITE_NAME}`,
+      title: isHome ? "Corelane - Operate every lane" : `${title} · ${SITE_NAME}`,
       description,
       url,
       siteName: SITE_NAME,
@@ -33,7 +33,7 @@ export function createPageMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: isHome ? "Corelane — Operate every lane" : `${title} · ${SITE_NAME}`,
+      title: isHome ? "Corelane - Operate every lane" : `${title} · ${SITE_NAME}`,
       description,
     },
   };

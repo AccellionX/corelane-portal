@@ -119,7 +119,7 @@ export default function AdminPlansPage() {
                     <TableCell className="max-w-[240px] truncate text-muted-foreground">
                       {plan.features.length} items
                     </TableCell>
-                    <TableCell>{plan.highlighted ? "Yes" : "—"}</TableCell>
+                    <TableCell>{plan.highlighted ? "Yes" : "-"}</TableCell>
                     <TableCell className="text-right">
                       <Button
                         size="icon"

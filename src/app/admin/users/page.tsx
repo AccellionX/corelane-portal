@@ -123,7 +123,7 @@ export default function AdminUsersPage() {
         description={
           canEdit
             ? "Search, filter, and manage seats. Status badges update live."
-            : "Read-only for Support — actions are disabled. Ask an Admin to make changes."
+            : "Read-only for Support - actions are disabled. Ask an Admin to make changes."
         }
       />
 
@@ -342,7 +342,7 @@ export default function AdminUsersPage() {
                 </Button>
                 {!canEdit && (
                   <p className="text-center text-xs text-muted-foreground">
-                    Restricted — ask an Admin for access.
+                    Restricted - ask an Admin for access.
                   </p>
                 )}
               </div>

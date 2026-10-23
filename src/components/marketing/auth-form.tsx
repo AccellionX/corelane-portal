@@ -57,7 +57,7 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
 
   const goToApp = (method: string) => {
     toast.success(mode === "login" ? "Signed in" : "Account created", {
-      description: `Mock ${method} — opening your dashboard.`,
+      description: `Mock ${method} - opening your dashboard.`,
     });
     router.push("/app");
   };

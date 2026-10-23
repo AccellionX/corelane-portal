@@ -21,7 +21,7 @@ const STEPS = [
     icon: CalendarPlus,
     title: "Connect your lanes",
     description:
-      "Import bookings, seats, and customers — or start fresh with a guided workspace setup.",
+      "Import bookings, seats, and customers - or start fresh with a guided workspace setup.",
   },
   {
     icon: Plug,
@@ -47,7 +47,7 @@ export function HomePage() {
           <div className="mx-auto max-w-3xl text-center">
             {!content.published && (
               <p className="mb-4 inline-flex rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs font-medium text-amber-800 dark:border-amber-800 dark:bg-amber-950/50 dark:text-amber-200">
-                Draft content — publish from Admin → CMS
+                Draft content - publish from Admin → CMS
               </p>
             )}
             <p className="mb-5 text-sm font-medium text-indigo-600 dark:text-indigo-400">
@@ -88,7 +88,7 @@ export function HomePage() {
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-semibold tracking-tight">Built for operators</h2>
             <p className="mt-3 text-muted-foreground">
-              Feature copy is live from the CMS store — edit it in Admin and watch this grid update.
+              Feature copy is live from the CMS store - edit it in Admin and watch this grid update.
             </p>
           </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-2">

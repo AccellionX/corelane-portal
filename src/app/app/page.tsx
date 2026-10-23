@@ -76,7 +76,7 @@ export default function AppOverviewPage() {
         ];
       case "subscriptions":
         return [
-          { label: "Plan", value: plan?.name ?? "—" },
+          { label: "Plan", value: plan?.name ?? "-" },
           {
             label: "Seat usage",
             value: `${usageMeters[0]?.used ?? 0}/${usageMeters[0]?.limit ?? 0}`,

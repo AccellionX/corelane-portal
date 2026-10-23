@@ -5,7 +5,7 @@ import { AboutPage } from "@/components/marketing/pages/about-page";
 export const metadata: Metadata = createPageMetadata({
   title: "About",
   description:
-    "Learn why Corelane exists — a calm control plane for bookings, billing, and support.",
+    "Learn why Corelane exists - a calm control plane for bookings, billing, and support.",
   path: "/about",
 });
 

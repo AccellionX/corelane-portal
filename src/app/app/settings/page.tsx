@@ -87,7 +87,7 @@ export default function SettingsPage() {
       <Card>
         <CardHeader>
           <CardTitle>Password</CardTitle>
-          <CardDescription>Mock change — nothing is sent to a server.</CardDescription>
+          <CardDescription>Mock change - nothing is sent to a server.</CardDescription>
         </CardHeader>
         <CardContent className="grid max-w-md gap-4">
           <div className="space-y-2">

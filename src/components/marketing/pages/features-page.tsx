@@ -14,7 +14,7 @@ const EXTRAS = [
   },
   {
     title: "Audit everything",
-    body: "Suspend users, refund charges, and publish CMS copy — each action lands in the audit log.",
+    body: "Suspend users, refund charges, and publish CMS copy - each action lands in the audit log.",
   },
   {
     title: "Invoice PDFs",

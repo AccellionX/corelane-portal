@@ -1,6 +1,6 @@
 # Corelane
 
-Fictional SaaS demo — public marketing site, customer dashboard, and admin panel sharing one Zustand store (persisted to `localStorage`). No real backend.
+Fictional SaaS demo - public marketing site, customer dashboard, and admin panel sharing one Zustand store (persisted to `localStorage`). No real backend.
 
 Built with **Next.js 14** (App Router), TypeScript, Tailwind CSS, shadcn/ui, Recharts, Sonner, jsPDF, and date-fns.
 
@@ -24,7 +24,7 @@ Use the floating **Demo** pill (bottom-right):
 
 - Switch **Public / User Dashboard / Admin**
 - Switch **product module** (Bookings / Orders / Subscriptions / Files)
-- Switch **role** (Admin / Manager / Support) — enforces admin access
+- Switch **role** (Admin / Manager / Support) - enforces admin access
 - Toggle **staging / production** environment
 - **Restart tour** or **Reset demo** data
 
@@ -44,7 +44,7 @@ On first visit, a welcome modal offers a **60-second tour** (skippable; restarta
 
 | Route | Description |
 |-------|-------------|
-| `/` | Home — CMS hero, features, pricing preview, FAQ |
+| `/` | Home - CMS hero, features, pricing preview, FAQ |
 | `/about` | About |
 | `/features` | Features (live from CMS) |
 | `/pricing` | Plans with monthly/annual toggle |
@@ -87,7 +87,7 @@ On first visit, a welcome modal offers a **60-second tour** (skippable; restarta
 3. Framework Preset: **Next.js** (auto-detected).
 4. Build settings (defaults are fine):
    - **Build Command:** `npm run build`
-   - **Output Directory:** (leave empty — Next.js)
+   - **Output Directory:** (leave empty - Next.js)
    - **Install Command:** `npm install`
 5. No environment variables are required for this demo (all data is client-side).
 6. Click **Deploy**.

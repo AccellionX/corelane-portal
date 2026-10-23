@@ -17,8 +17,8 @@ export function AuthPage({ mode }: { mode: "login" | "signup" }) {
           </h1>
           <p className="mt-2 text-sm text-muted-foreground">
             {isLogin
-              ? "Mock sign-in — any valid email and 8+ character password continues to /app."
-              : "Mock sign-up — Continue with Google or email lands you in the dashboard."}
+              ? "Mock sign-in - any valid email and 8+ character password continues to /app."
+              : "Mock sign-up - Continue with Google or email lands you in the dashboard."}
           </p>
         </div>
         <AuthForm mode={mode} />
